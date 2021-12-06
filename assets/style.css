@@ -85,8 +85,8 @@ textarea{
   text-shadow: 2px 2px 3px black;
 }
   
-.saveBtn:hover {
-  font-size: 20px;
+.saveBtn i:hover {
+  font-size: 30px;
   transition: all .3s ease-in-out;
 }
 
