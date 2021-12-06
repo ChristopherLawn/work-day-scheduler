@@ -24,16 +24,71 @@
 
   <body>
     <header class="jumbotron">
-      <h1 class="display-3">Work Day Scheduler</h1>
-      <p class="lead">A simple calendar app for scheduling your work day</p>
-      <p id="currentDay" class="lead"></p>
+      <h1 class="display-4">Work Day Scheduler</h1>
+      <p class="lead font-italic">The simple work day calendar app!</p>
+      <p id="today" class="today-style"></p>
     </header>
+    
     <div class="container">
-      <!-- Timeblocks go here -->
+
+      <div id="8am" class="time-block row">
+        <div id="8time" class="hour col-lg-1 col-md-1 col-sm-12">8 AM</div>
+        <textarea id="8text" class="description col-lg-10 col-md-9 col-sm-12"></textarea>
+        <button id="8save" class="saveBtn col-lg-1 col-md-2 col-sm-12">SAVE</button>
+      </div>
+
+      <div id="9am" class="time-block row">
+        <div id="9time" class="hour col-lg-1 col-md-1 col-sm-12">9 AM</div>
+        <textarea id="9text" class="description col-lg-10 col-md-9 col-sm-12"></textarea>
+        <button id="9save" class="saveBtn col-lg-1 col-md-2 col-sm-12">SAVE</button>
+      </div>
+
+      <div id="10am" class="time-block row">
+        <div id="10time" class="hour col-lg-1 col-md-1 col-sm-12">10 AM</div>
+        <textarea id="10text" class="description col-lg-10 col-md-9 col-sm-12"></textarea>
+        <button id="10save" class="saveBtn col-lg-1 col-md-2 col-sm-12">SAVE</button>
+      </div>
+
+      <div id="11am" class="time-block row">
+        <div id="11time" class="hour col-lg-1 col-md-1 col-sm-12">11 AM</div>
+        <textarea id="11text" class="description col-lg-10 col-md-9 col-sm-12"></textarea>
+        <button id="11save" class="saveBtn col-lg-1 col-md-2 col-sm-12">SAVE</button>
+      </div>
+
+      <div id="12pm" class="time-block row">
+        <div id="12time" class="hour col-lg-1 col-md-1 col-sm-12">12 PM</div>
+        <textarea id="12text" class="description col-lg-10 col-md-9 col-sm-12"></textarea>
+        <button id="12save" class="saveBtn col-lg-1 col-md-2 col-sm-12">SAVE</button>
+      </div>
+
+      <div id="1pm" class="time-block row">
+        <div id="1time" class="hour col-lg-1 col-md-1 col-sm-12">1 PM</div>
+        <textarea id="1text" class="description col-lg-10 col-md-9 col-sm-12"></textarea>
+        <button id="1save" class="saveBtn col-lg-1 col-md-2 col-sm-12">SAVE</button>
+      </div>
+
+      <div id="2pm" class="time-block row">
+        <div id="2time" class="hour col-lg-1 col-md-1 col-sm-12">2 PM</div>
+        <textarea id="2text" class="description col-lg-10 col-md-9 col-sm-12"></textarea>
+        <button id="2save" class="saveBtn col-lg-1 col-md-2 col-sm-12">SAVE</button>
+      </div>
+
+      <div id="3pm" class="time-block row">
+        <div id="3time" class="hour col-lg-1 col-md-1 col-sm-12">3 PM</div>
+        <textarea id="3text" class="description col-lg-10 col-md-9 col-sm-12"></textarea>
+        <button id="3save" class="saveBtn col-lg-1 col-md-2 col-sm-12">SAVE</button>
+      </div>
+
+      <div id="4pm" class="time-block row">
+        <div id="4time" class="hour col-lg-1 col-md-1 col-sm-12">4 PM</div>
+        <textarea id="4text" class="description col-lg-10 col-md-9 col-sm-12"></textarea>
+        <button id="4save" class="saveBtn col-lg-1 col-md-2 col-sm-12">SAVE</button>
+      </div>
+
     </div>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <link rel="stylesheet" href="./assets/script.js" />
+    <script src = "./assets/script.js"></script>
   </body>
 </html>

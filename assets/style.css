@@ -1,72 +1,95 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    line-height: 1;
-  }
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1;
+  background-color: purple;
+}
   
-  textarea{
-    background: transparent;
-    border: none;
-    resize: none;
-    color: #000000;
-    border-left: 1px solid black;
-    padding: 10px;
-  }
+textarea{
+  background: transparent;
+  border: 1px solid black;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 5px;
+}
   
-  .jumbotron {
-    text-align: center;
-    background-color: transparent;
-    color: black;
-    border-radius: 0;
-    border-bottom: 10px solid black;
-  }
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+  font-weight: bold;
+  outline: black;
+  text-shadow: 2px 2px 3px black;
+}
+
+.container {
+  padding-bottom: 30px;
+}
+
+.description{
+  white-space: pre-wrap;
+  background-color: lightgray;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
   
-  .description{
-    white-space: pre-wrap;
-  }
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+}
   
-  .time-block{
-    text-align: center;
-    border-radius: 15px;
-  }
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+}
   
-  .row {
-    white-space: pre-wrap;
-    height: 80px;
-    border-top: 1px solid white;;
-  }
+.hour {
+  background-color: #817d7d;
+  color: #ffffff;
+  border: 1px solid #000000;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  text-align: center;
+  vertical-align: baseline;
+  padding: 5px 0;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
+}
   
-  .hour {
-    background-color: #ffffff;
-    color: #000000;
-    border-top: 1px dashed #000000;
-  }
+.past {
+  background-color: #d3d3d3;
+  color: white;
+}
   
-  .past {
-    background-color: #d3d3d3;
-    color: white;
-  }
+.present {
+  background-color: #ff6961;
+  color: white;
+}
   
-  .present {
-    background-color: #ff6961;
-    color: white;
-  }
+.future {
+  background-color: #77dd77;
+  color: white;
+}
   
-  .future {
-    background-color: #77dd77;
-    color: white;
-  }
+.saveBtn {
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 3px black;
+}
   
-  .saveBtn {
-    border-left: 1px solid black;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: #06AED5;
-    color: white;
-  }
-  
-  .saveBtn i:hover {
-    font-size: 20px;
-    transition: all .3s ease-in-out;
-  }
-  
+.saveBtn:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+.last-row {
+  padding-bottom: 25px;
+}
