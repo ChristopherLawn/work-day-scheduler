@@ -12,7 +12,7 @@ A simple, easy-to-use daily task scheduler! It conveniently shows the user the c
 https://christopherlawn.github.io/work-day-scheduler/ 
 
 ## Screenshot of Work Day Scheduler main page
-
+![work-day-scheduler-homepage](https://user-images.githubusercontent.com/91863054/145012462-44f1da1d-edde-4e45-9c2e-a45040c79b64.PNG)
 
 ## Contribution
 Made with ❤️ by Chris Lawn
