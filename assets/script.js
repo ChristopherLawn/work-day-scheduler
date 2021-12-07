@@ -89,4 +89,4 @@ function checkHours() {
 };
 
 // Run the function constantly to check the time
-checkHours();
+checkHours(); 
